@@ -30,12 +30,17 @@ const ProdCard = ({prod}) => {
         </figure>
         <hr />
         <ul className='prodcard_list'>
-            <li className='prodcard_item'><span>{prod.brand}</span><span>{prod.title}</span></li>
-            <li className='prodcard_item'><span>Price </span><span>$ {prod.price}.00</span></li>
+            <li className='prodcard_item'>
+                <span className='prodcarcard_brand'>{prod.brand}</span>
+            <span className='prodcard_title'>{prod.title}</span>
+            </li>
+            <li className='prodcard_item'>
+                <span className='prodcard_price'>Price </span>
+                <span>$ {prod.price}.00</span></li>
         </ul>
         <div className='prodcard_buttons'>
             <button onClick={handleView}>View details</button>
-            <button onClick={handleBuy}>Add to cart</button>
+            <button className='prodcard_btn' onClick={handleBuy}>🛒</button>
         </div>
     </article>
   )

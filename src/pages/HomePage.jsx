@@ -45,6 +45,7 @@ const HomePage = () => {
   return (
     <div className='homepage'>
       <div className='homepage_filters'>
+        <hr />
         <div className='homepage_filtername'>
           <input ref={textInput} onChange={handleChange} type="text" />
           <button className='homepage_filter-btn'>🔍</button>

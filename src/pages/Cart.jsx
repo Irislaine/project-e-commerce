@@ -39,7 +39,7 @@ const Cart = () => {
       <p>Total Price: $ {cart.reduce((ca, pr) => {
         return ca + pr.quantity * pr.product?.price;
       }, 0)}</p>
-      <button onClick={handleBuy}>Buy</button>
+      <button className='cart_btn' onClick={handleBuy}>Buy</button>
     </div>
     </>
   )

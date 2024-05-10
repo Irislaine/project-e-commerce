@@ -25,3 +25,11 @@
 .cartprod_price {
     grid-column: span 3;
 }
+
+.cartprod_btn {
+    width: 38px;
+    height: 30px;
+    border-radius: none;
+    background-color: white;
+    border: none;
+}

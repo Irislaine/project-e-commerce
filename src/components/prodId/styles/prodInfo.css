@@ -6,6 +6,10 @@
     border-radius: 20px;
 }
 
+.prodinfo_brand {
+    color: gray;
+}
+
 .prodinfo_title {
     padding-left: 20px;
     margin: 10px 0;
@@ -28,6 +32,8 @@
 }
 
 .prodinfo_counter p {
+    text-align: center;
+    text-transform: capitalize;
     margin-bottom: 10px;
 }
 
@@ -36,5 +42,9 @@
 }
 
 .prodinfo_btnbuy {
+    color: white;
+    background-color: #f85555;;
+    border-color: #f85555;;
+    border-radius: 10px;
     width: 100%;
 }

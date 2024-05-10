@@ -52,12 +52,12 @@ const ProdInfo = ({ product }) => {
         <div className='prodinfo_counter'>
           <p>quantity</p>
 
-          <button onClick={handleLess} className='prodinfo_btnless'>-1
+          <button onClick={handleLess} className='prodinfo_btnless'>-
           </button>
 
           <span>{counter}</span>
 
-          <button onClick={handlePlus} className='prodinfo_btnplus'>+1
+          <button onClick={handlePlus} className='prodinfo_btnplus'>+
           </button>
         </div>
       </div>    

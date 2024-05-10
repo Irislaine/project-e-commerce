@@ -17,3 +17,10 @@
 .filterprice_item input {
     width: 150px;
 }
+
+.filterprice_btn {
+    border-radius: 20px 0;
+    background-color:  #f85555;
+    border-color:  #f85555;
+    color: white;
+}

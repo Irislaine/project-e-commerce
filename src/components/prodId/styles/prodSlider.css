@@ -4,7 +4,7 @@
     height: 350px;
 }
 
-.splide__slice {
+.splide__slide {
     height: 300px;
     display: flex;
     align-items: center;

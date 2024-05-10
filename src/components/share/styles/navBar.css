@@ -1,16 +1,22 @@
 .navbar {
+    height: 150px;
     background-color: white;
     padding: 0 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
 }
+
 a {
-    color: rgb(215, 41, 41);
+    font-size: 30px;
+    color: #f85555;
 }
 
 .navbar_list {
+    gap: 0.5rem;
+    align-items: center;
     display: flex;
     flex-wrap: wrap; 
     gap: 20px;

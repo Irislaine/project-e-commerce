@@ -13,3 +13,9 @@
     align-items: center;
     gap: 10px;
 }
+
+.cart_btn {
+    background-color:  #f85555;
+    border-radius: 8px;
+    border: none;
+}

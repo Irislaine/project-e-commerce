@@ -38,11 +38,11 @@ const CartProd = ({ prod }) => {
         <img src={prod.product?.images[0].url} alt="product img" />
       </figure>
       <div className='cartprod_container'>
-        <button onClick={handleLess}>-1</button>
+        <button onClick={handleLess}>-</button>
         <span>{prod.quantity}</span>
-        <button onClick={handlePlus}>+1</button>
+        <button onClick={handlePlus}>+</button>
       </div>
-      <button onClick={handleDelete}>Delete</button>
+      <button className='cartprod_btn' onClick={handleDelete}>🗑️</button>
       <span className='cartprod_price'>Total: $ {prod.product?.price * prod.quantity}.00</span>
     </article>
   )

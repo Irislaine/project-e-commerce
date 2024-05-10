@@ -28,18 +28,30 @@
     transition: opacity .75s;
 }
 
-.prodcard_img:houver .prodcard_img-1 {
+.prodcard_img:hover .prodcard_img-1 {
     opacity: 0;
     transition: opacity .75s;
 }
 
-.prodcard_img:houver  .prodcard_img-2 {
+.prodcard_img:hover  .prodcard_img-2 {
     opacity: 1;
     transition: opacity .75s;
 }
 
 .prodcard hr {
     margin: 10px 0 ;
+}
+
+.prodcarcard_brand {
+    color: gray;
+}
+
+.prodcard_title{
+    font: bolder;
+}
+
+.prodcard_price {
+    color: gray;
 }
 
 .prodcard_item {
@@ -55,4 +67,11 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 10px;
+}
+.prodcard_btn {
+    border-color:  #f85555;
+    border-radius: 10px;
+    background-color:  #f85555;
+    color: white;
+
 }

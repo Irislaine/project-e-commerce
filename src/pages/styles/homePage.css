@@ -11,6 +11,12 @@
     display: flex;
 }
 
+.homepage_filter-btn {
+    background-color:  #f85555;
+    border-color:  #f85555;
+    border-radius: 20px
+}
+
 .homepage_btn::before {
     content: 'Dark';
 }
