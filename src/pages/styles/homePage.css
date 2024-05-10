@@ -1,0 +1,28 @@
+.homepage_filters {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.homepage_filtername {
+    display: flex;
+}
+
+.homepage_btn::before {
+    content: 'Dark';
+}
+
+.dark .homepage_btn::before {
+    content: 'Ligth';
+}
+
+.homepage_container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+}

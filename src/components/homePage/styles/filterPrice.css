@@ -1,0 +1,19 @@
+.filterprice {
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.filterprice_item {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filterprice_item input {
+    width: 150px;
+}
